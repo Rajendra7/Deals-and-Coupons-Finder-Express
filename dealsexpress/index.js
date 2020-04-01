@@ -33,7 +33,7 @@ app.use(bodyparser.json());
 app.use('/api', route);
 
 app.get('/', ( req, res)=> {
-    res.send('Raj');
+    res.send('Winny');
 })
 
 app.listen(PORT, ()=> {
